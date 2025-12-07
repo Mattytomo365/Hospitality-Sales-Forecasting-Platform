@@ -4,7 +4,7 @@
 
 ## Overview
 
-This my capstone project i will be completing during the final year of my degree.
+**Note this project is on hold whilst I complete my `Comparative-Forecasting-Analysis` capstone project, findings will inform the implemented machine learning model utilised within this project**
 
 It is a full stack Angular & .NET web application powered by regression models to accurately forecast restaurant sales and surface insights to improve inventory & staffing decisions.
 

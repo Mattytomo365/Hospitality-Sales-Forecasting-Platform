@@ -1,18 +1,11 @@
 # scripts/train.py
-import json, time, joblib
-from pathlib import Path
-import pandas as pd
-import numpy as np
 from src.models.model_factory import make_estimator, grid_search, feature_cols
 from src.models.training import time_split, train_model, save_model
 from src.models.evaluation import calculate_metrics
-from src.models.registry import save_manifest, set_active
 from src.dataset.load_save import load_csv
-# # --- INFERENCE / SERVE TIME ---
-# schema = load_onehot_schema("models/ohe_schema.json")
-# df_ohe, ohe_cols = apply_onehot(new_df_clean, schema, drop_original=False)
 
-def main(data_path="data/df_feature.csv", target="sales", param_grid=None, test_days=56, n_folds=3, valid_days=28, activate=True):
+
+def main(data_path="data/restaurant_data_processed.csv", target="sales", param_grid=None, test_days=56, n_folds=3, valid_days=28, activate=True):
     df = load_csv(data_path)
     features = feature_cols(df)
     train, test = time_split(df)
@@ -53,9 +46,7 @@ def main(data_path="data/df_feature.csv", target="sales", param_grid=None, test_
 
         # save artifacts + manifest
         save_model(model, target, features, best["params"], metrics)
-
-        if activate:
-            set_active()
+        print("Model saved")
 
 
 
