@@ -1,0 +1,7 @@
+{
+  "model_id": "example_rf",
+  "algorithm": "rf",
+  "feature_columns": ["weather_sunny","holiday","internal_event","external_event"],
+  "metrics": {"mae_val": 512.3, "rmse_val": 733.9},
+  "created_utc": "2025-09-09T10:03:55Z"
+}

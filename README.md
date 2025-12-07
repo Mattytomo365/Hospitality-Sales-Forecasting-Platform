@@ -4,7 +4,7 @@
 
 ## Overview
 
-This my capstone project i will be completing during the final year of my degree.
+**Note this project is on hold whilst I complete my `Comparative-Forecasting-Analysis` capstone project, findings will inform the implemented machine learning model utilised within this project**
 
 It is a full stack Angular & .NET web application powered by regression models to accurately forecast restaurant sales and surface insights to improve inventory & staffing decisions.
 
@@ -39,6 +39,15 @@ This project follows Clean Architecture, enabling the clear separation of respon
 - Infrastructure Layer – Manages external services & dependencies, details not core to the business logic of the application like repository implementations, persistence via EF Core, and external APIs.
 
 **All dependencies point inward; outer layers depend on inner layers via interfaces (ports).**
+
+---
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Email:** matty.tom@icloud.com
+- **GitHub:** [Mattytomo365](https://github.com/Mattytomo365)
 
 
 

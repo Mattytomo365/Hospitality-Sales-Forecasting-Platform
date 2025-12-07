@@ -1,0 +1,37 @@
+{
+  "weather": [
+    "cloudy",
+    "heatwave",
+    "rain",
+    "snow",
+    "sunny"
+  ],
+  "internal_events": [
+    "2_for_1_promo",
+    "happy_hour",
+    "live_music",
+    "quiz_night",
+    "tasting_menu"
+  ],
+  "external_events": [
+    "concert",
+    "football_match",
+    "local_festival",
+    "uni_freshers"
+  ],
+  "holiday": [
+    "bank_holiday_weekend",
+    "boxing_day",
+    "christmas_day",
+    "christmas_eve",
+    "easter_monday",
+    "easter_sunday",
+    "father_s_day",
+    "good_friday",
+    "halloween",
+    "mother_s_day",
+    "new_year_s_day",
+    "new_year_s_eve",
+    "valentine_s_day"
+  ]
+}
