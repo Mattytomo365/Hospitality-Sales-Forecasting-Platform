@@ -6,7 +6,7 @@
 
 **Note this project is on hold whilst I complete my `Comparative-Forecasting-Analysis` capstone project, findings will inform the implemented machine learning model utilised within this project**
 
-As shown in the Gantt chart for this project, a dedicated testing phase consisting of unit, integration, and end-to-end tests is scheduled before further development resumes, helping align the project with standard software development lifecycle practices.
+As shown in the Gantt chart for this project, a dedicated testing phase consisting of unit, integration, and end-to-end tests is scheduled before further development resumes, helping align the project with standard software development lifecycle practices. Data processing/analysis and machine learning development related unit tests will be implemented within the `Comparative-Forecasting-Analysis`, hence why they dont appear on the Gantt chart.
 
 It is a full stack Angular & .NET web application powered by regression models to accurately forecast restaurant sales and surface insights to improve inventory & staffing decisions.
 
