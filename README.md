@@ -6,6 +6,8 @@
 
 **Note this project is on hold whilst I complete my `Comparative-Forecasting-Analysis` capstone project, findings will inform the implemented machine learning model utilised within this project**
 
+As shown in the Gantt chart for this project, a dedicated testing phase consisting of unit, integration, and end-to-end tests is scheduled before further development resumes, helping align the project with standard software development lifecycle practices.
+
 It is a full stack Angular & .NET web application powered by regression models to accurately forecast restaurant sales and surface insights to improve inventory & staffing decisions.
 
 The machine learning layer consists of a Python service exposed using Flask, models are trained, tuned, tested, evaluated, and compared using time-aware splits. Historical data is augmented with engineered features for weather, to national holidays, internal events, external events and more.  
