@@ -1,4 +1,4 @@
-# Restaurant Sales Forecasting System
+# Hospitality Sales Forecasting Platform
 
 ---
 
